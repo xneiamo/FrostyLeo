@@ -1,4 +1,4 @@
-﻿Log file open, 03/27/15 23:59:03
+﻿Log file open, 03/28/15 00:23:02
 LogInit:Display: Running engine for game: SideScrollTesting
 LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,328 +6,377 @@ LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.03.28-03.59.03:445][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.03.28-03.59.03:509][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.03.28-03.59.03:541][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.03.28-03.59.03:562][  0]LogInit: Object subsystem initialized
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.03.28-03.59.03:565][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.03.28-03.59.03:567][  0]LogInit: Selected Device Profile: [Windows]
-[2015.03.28-03.59.03:567][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.03.28-03.59.03:578][  0]LogInit: Computer: CAM-PC
-[2015.03.28-03.59.03:578][  0]LogInit: User: Cam
-[2015.03.28-03.59.03:578][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.03.28-03.59.03:578][  0]LogInit: High frequency timer resolution =2.338476 MHz
-[2015.03.28-03.59.03:578][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
-[2015.03.28-03.59.03:579][  0]LogMemory: Platform Memory Stats for Windows
-[2015.03.28-03.59.03:579][  0]LogMemory: Process Physical Memory: 49.01 MB used, 49.01 MB peak
-[2015.03.28-03.59.03:579][  0]LogMemory: Process Virtual Memory: 25.00 MB used, 25.00 MB peak
-[2015.03.28-03.59.03:579][  0]LogMemory: Physical Memory: 7648.50 MB used, 16275.93 MB total
-[2015.03.28-03.59.03:579][  0]LogMemory: Virtual Memory: 274.78 MB used, 8388608.00 MB total
-[2015.03.28-03.59.03:700][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX    (Feature Level 11_0)
-[2015.03.28-03.59.03:700][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7881MB of shared system memory, 2 output[s]
-[2015.03.28-03.59.03:700][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.03.28-03.59.03:722][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.03.28-03.59.03:747][  0]LogD3D11RHI: Async texture creation enabled
-[2015.03.28-03.59.04:347][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.03.28-03.59.04:414][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.03.28-04.23.02:183][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.28-04.23.02:244][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.28-04.23.02:264][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.28-04.23.02:272][  0]LogInit: Object subsystem initialized
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.28-04.23.02:273][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-04.23.02:274][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.28-04.23.02:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.28-04.23.02:282][  0]LogInit: Computer: XNIEAMO
+[2015.03.28-04.23.02:282][  0]LogInit: User: Xiaomao
+[2015.03.28-04.23.02:282][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.28-04.23.02:282][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.03.28-04.23.02:282][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx) Virtual=131072.0GB
+[2015.03.28-04.23.02:282][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.28-04.23.02:282][  0]LogMemory: Process Physical Memory: 46.39 MB used, 46.39 MB peak
+[2015.03.28-04.23.02:282][  0]LogMemory: Process Virtual Memory: 28.64 MB used, 28.64 MB peak
+[2015.03.28-04.23.02:282][  0]LogMemory: Physical Memory: 5359.61 MB used, 7912.27 MB total
+[2015.03.28-04.23.02:282][  0]LogMemory: Virtual Memory: 295.30 MB used, 134217728.00 MB total
+[2015.03.28-04.23.02:320][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.03.28-04.23.02:320][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 2 output[s]
+[2015.03.28-04.23.02:337][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M  (Feature Level 11_0)
+[2015.03.28-04.23.02:337][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.03.28-04.23.02:338][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.28-04.23.02:338][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.28-04.23.02:339][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.28-04.23.02:344][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.28-04.23.02:357][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.28-04.23.02:436][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.28-04.23.02:489][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.03.28-03.59.04:414][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.03.28-04.23.02:489][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.03.28-03.59.04:511][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.03.28-03.59.07:286][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.28-03.59.07:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.28-03.59.08:038][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.03.28-03.59.08:081][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.28-03.59.08:081][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.03.28-03.59.08:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.03.28-03.59.08:081][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.03.28-03.59.08:228][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.03.28-03.59.08:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.03.28-03.59.08:614][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.03.28-03.59.08:614][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.03.28-03.59.09:031][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.03.28-03.59.09:131][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.03.28-03.59.10:010][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.03.28-03.59.10:267][  0]SourceControl: Info Source control is disabled
-[2015.03.28-03.59.10:267][  0]SourceControl: Info Source control is disabled
-[2015.03.28-03.59.10:267][  0]SourceControl: Info Source control is disabled
-[2015.03.28-03.59.10:267][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.28-03.59.10:267][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.03.28-03.59.10:277][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.28-03.59.10:298][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.8.1.msysgit.1
+[2015.03.28-04.23.02:564][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.28-04.23.04:991][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-04.23.05:687][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-04.23.05:777][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.28-04.23.05:817][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Xiaomao/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.28-04.23.05:817][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Xiaomao/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.28-04.23.05:817][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.28-04.23.05:817][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.28-04.23.05:924][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.28-04.23.05:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xiaomao/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.28-04.23.06:272][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.28-04.23.06:272][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.28-04.23.06:723][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.28-04.23.06:860][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.28-04.23.08:028][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.28-04.23.08:333][  0]SourceControl: Info Source control is disabled
+[2015.03.28-04.23.08:333][  0]SourceControl: Info Source control is disabled
+[2015.03.28-04.23.08:333][  0]SourceControl: Info Source control is disabled
+[2015.03.28-04.23.08:333][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-04.23.08:334][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.28-04.23.08:351][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-04.23.08:562][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
 '
-[2015.03.28-03.59.10:546][  0]LogObj: 24231 objects as part of root set at end of initial load.
-[2015.03.28-03.59.10:546][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
-[2015.03.28-03.59.10:638][  0]LogEngine: Initializing Engine...
-[2015.03.28-03.59.12:849][  0]LogInit: XAudio2 using 'Bluetooth A2DP Stere Audio (OUTBOUND 4000592( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.03.28-03.59.12:854][  0]LogInit: FAudioDevice initialized.
-[2015.03.28-03.59.12:901][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.03.28-03.59.12:924][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.03.28-03.59.12:929][  0]LogInit: Texture streaming: Enabled
-[2015.03.28-03.59.13:039][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.03.28-03.59.13:039][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.28-03.59.13:039][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
-[2015.03.28-03.59.13:039][  0]LogAnalytics: SetUserId 833b6ab54fec4c953d81aba2376f6a71|7627d88c4c704d328ba794190305fc13|44a3ef7e-f5ce-4203-b788-6d6e7bdf927f
-[2015.03.28-03.59.13:040][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.03.28-03.59.13:075][  0]LogInit: Transaction tracking system initialized
-[2015.03.28-03.59.13:290][  0]BlueprintLog: New page: Editor Load
-[2015.03.28-03.59.13:331][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
-[2015.03.28-03.59.13:331][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.03.28-03.59.13:997][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.28-03.59.14:448][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.03.28-03.59.14:764][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.03.28-03.59.14:765][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.03.28-03.59.14:770][  0]LogConsoleResponse:Display: 
-[2015.03.28-03.59.14:924][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.03.28-03.59.15:089][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.03.28-03.59.15:110][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.8.1.msysgit.1
+[2015.03.28-04.23.08:894][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.28-04.23.08:895][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.28-04.23.08:992][  0]LogEngine: Initializing Engine...
+[2015.03.28-04.23.11:152][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.28-04.23.11:172][  0]LogInit: FAudioDevice initialized.
+[2015.03.28-04.23.11:235][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.28-04.23.11:259][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Xiaomao/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.28-04.23.11:262][  0]LogInit: Texture streaming: Enabled
+[2015.03.28-04.23.11:379][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.28-04.23.11:379][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.28-04.23.11:379][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.28-04.23.11:379][  0]LogAnalytics: SetUserId 3849b513449c3dd10268808ff2668b1e|cde9365dd7ba4f7a9945047a98e2ecd1|f717e3d1-6e85-48dc-81f0-d25dd496989f
+[2015.03.28-04.23.11:379][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.28-04.23.11:434][  0]LogInit: Transaction tracking system initialized
+[2015.03.28-04.23.11:710][  0]BlueprintLog: New page: Editor Load
+[2015.03.28-04.23.11:762][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.03.28-04.23.11:762][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.28-04.23.12:455][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-04.23.12:871][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-04.23.13:348][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.28-04.23.13:349][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.28-04.23.13:393][  0]LogConsoleResponse:Display: 
+[2015.03.28-04.23.13:560][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.28-04.23.13:810][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-04.23.13:839][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
 '
-[2015.03.28-03.59.15:110][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Maps/LandsOfToasting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.03.28-03.59.15:111][  0]LightingResults: New page: Lighting Build
-[2015.03.28-03.59.15:126][  0]MapCheck: New page: Map Check
-[2015.03.28-03.59.15:126][  0]LightingResults: New page: Lighting Build
-[2015.03.28-03.59.15:136][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C5A520
-[2015.03.28-03.59.15:181][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.03.28-03.59.15:181][  0]LogAIModule: Creating AISystem for world LandsOfToasting
-[2015.03.28-03.59.15:182][  0]Cmd: MAP CHECKDEP
-[2015.03.28-03.59.15:182][  0]MapCheck: New page: LandsOfToasting - Mar 27, 2015, 7:59:15 PM
-[2015.03.28-03.59.15:262][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.961ms to complete.
-[2015.03.28-03.59.15:262][  0]LogFileHelpers: Loading map 'LandsOfToasting' took 0.152
-[2015.03.28-03.59.15:444][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
-[2015.03.28-03.59.15:444][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='# On branch master
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   Intermediate/CachedAssetRegistry.bin
-#	modified:   Saved/Autosaves/PackageRestoreData.json
-#	modified:   Saved/Config/Windows/EditorLayout.ini
-#	modified:   Saved/Config/Windows/EditorUserSettings.ini
-#	modified:   Saved/Config/Windows/Engine.ini
-#	modified:   Saved/Logs/SideScrollTesting.log
-#
-# Untracked files:
-#   (use "git add <file>..." to include in what will be committed)
-#
-#	Saved/Logs/SideScrollTesting-backup-2015.03.27-23.59.03.log
+[2015.03.28-04.23.13:840][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Maps/LandsOfToasting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.28-04.23.13:841][  0]LightingResults: New page: Lighting Build
+[2015.03.28-04.23.13:864][  0]MapCheck: New page: Map Check
+[2015.03.28-04.23.13:864][  0]LightingResults: New page: Lighting Build
+[2015.03.28-04.23.13:873][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE911D3B00
+[2015.03.28-04.23.13:921][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.28-04.23.13:922][  0]LogAIModule: Creating AISystem for world LandsOfToasting
+[2015.03.28-04.23.13:923][  0]Cmd: MAP CHECKDEP
+[2015.03.28-04.23.13:923][  0]MapCheck: New page: LandsOfToasting - Mar 27, 2015, 8:23:13 PM
+[2015.03.28-04.23.14:104][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 181.066ms to complete.
+[2015.03.28-04.23.14:104][  0]LogFileHelpers: Loading map 'LandsOfToasting' took 0.264
+[2015.03.28-04.23.14:258][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.28-04.23.14:258][  0]LogCollectionManager: Loaded 0 collections in 0.003467 seconds
+[2015.03.28-04.23.14:274][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 1696 classes and 261 folders.
+[2015.03.28-04.23.14:326][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0052 seconds. Added 1 classes and 2 folders.
+[2015.03.28-04.23.14:389][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.28-04.23.14:391][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.28-04.23.14:401][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.28-04.23.14:430][  0]LogLoad: Full Startup: 14.44 seconds (BP compile: 0.01 seconds)
+[2015.03.28-04.23.14:797][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch xiaomaos-branch
+Your branch is ahead of 'origin/xiaomaos-branch' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+	modified:   Content/Maps/LandsOfToasting.umap
+	modified:   Intermediate/CachedAssetRegistry.bin
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+	modified:   Saved/AutoScreenshot.png
+	modified:   Saved/Autosaves/PackageRestoreData.json
+	modified:   Saved/Config/Windows/Editor.ini
+	modified:   Saved/Config/Windows/EditorLayout.ini
+	modified:   Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Saved/Config/Windows/Engine.ini
+	modified:   Saved/Config/Windows/GameUserSettings.ini
+	modified:   Saved/Logs/SideScrollTesting.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+
 no changes added to commit (use "git add" and/or "git commit -a")
 '
-[2015.03.28-03.59.15:444][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
-[2015.03.28-03.59.15:444][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+[2015.03.28-04.23.14:797][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.28-04.23.14:797][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='xiaomaos-branch
 '
-[2015.03.28-03.59.15:444][  0]LogCollectionManager: Loaded 0 collections in 0.001871 seconds
-[2015.03.28-03.59.15:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 1696 classes and 261 folders.
-[2015.03.28-03.59.15:511][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
-[2015.03.28-03.59.15:567][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.03.28-03.59.15:569][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.03.28-03.59.15:578][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.03.28-03.59.15:612][  0]LogLoad: Full Startup: 14.20 seconds (BP compile: 0.00 seconds)
-[2015.03.28-03.59.15:643][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2015.03.28-03.59.15:689][  0]SourceControl: Info master
-[2015.03.28-03.59.15:816][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
-[2015.03.28-03.59.16:147][  6]LogAssetRegistry: Asset discovery search completed in 2.8259 seconds
-[2015.03.28-03.59.16:758][ 43]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Maps/LandsOfToasting.umap"'
-[2015.03.28-03.59.16:791][ 45]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
-[2015.03.28-03.59.19:042][177]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/2DSideScrollerBP'
-[2015.03.28-03.59.20:050][238]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset"'
-[2015.03.28-03.59.20:083][240]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
-[2015.03.28-03.59.22:061][358]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/2DSideScrollerBP/Blueprints'
-[2015.03.28-03.59.23:069][419]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset"'
-[2015.03.28-03.59.23:103][421]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
-[2015.03.28-04.00.13:839][280]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EED74C0
-[2015.03.28-04.00.14:400][281]Cmd: QUIT_EDITOR
-[2015.03.28-04.00.14:676][281]LogExit: Preparing to exit.
-[2015.03.28-04.00.15:057][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015EF2700
-[2015.03.28-04.00.15:057][281]LogExit: Editor shut down
-[2015.03.28-04.00.15:058][281]LogExit: Transaction tracking system shut down
-[2015.03.28-04.00.15:058][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F6209A0
-[2015.03.28-04.00.15:061][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000231CA520
-[2015.03.28-04.00.15:135][281]LogExit: Object subsystem successfully closed.
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.03.28-04.00.15:185][281]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.03.28-04.00.15:186][281]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.03.28-04.00.15:540][281]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.03.28-04.00.15:541][281]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.03.28-04.00.15:648][281]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.03.28-04.00.15:648][281]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.03.28-04.00.15:648][281]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.03.28-04.00.15:649][281]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.03.28-04.00.15:650][281]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.03.28-04.00.15:834][281]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.03.28-04.00.15:835][281]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.03.28-04.00.15:836][281]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.03.28-04.00.15:836][281]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.03.28-04.00.15:836][281]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.03.28-04.00.15:936][281]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.03.28-04.00.15:936][281]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.03.28-04.00.15:941][281]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.03.28-04.00.15:947][281]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.03.28-04.00.16:235][281]LogDerivedDataCache: Shutdown
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.03.28-04.00.16:235][281]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.03.28-04.00.16:236][281]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.03.28-04.00.16:237][281]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.03.28-04.00.16:238][281]LogExit: Exiting.
-[2015.03.28-04.00.16:242][281]Log file closed, 03/28/15 00:00:16
+[2015.03.28-04.23.14:797][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-04.23.14:853][  0]SourceControl: Info xiaomaos-branch
+[2015.03.28-04.23.14:976][  0]LogRenderer:Warning: Reallocating scene render targets to support 1160x600 (Frame:2).
+[2015.03.28-04.23.15:804][  3]LogAssetRegistry: Asset discovery search completed in 4.0533 seconds
+[2015.03.28-04.23.19:957][188]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-04.23.20:005][191]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+'
+[2015.03.28-04.23.25:213][491]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.28-04.23.25:737][522]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-04.23.26:491][567]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.03.28-04.23.26:907][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.28-04.23.27:327][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite'
+[2015.03.28-04.23.28:338][678]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/PrototypeTexture_Sprite.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/TestingChamber_Sprite.uasset"'
+[2015.03.28-04.23.28:570][692]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.28:797][705]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.03.28-04.23.29:804][766]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Textures/PrototypeTexture.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Textures/TestingChamber.uasset"'
+[2015.03.28-04.23.29:853][769]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.30:013][778]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite'
+[2015.03.28-04.23.31:023][839]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/PrototypeTexture_Sprite.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/TestingChamber_Sprite.uasset"'
+[2015.03.28-04.23.31:282][853]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.33:035][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2015.03.28-04.23.34:053][ 17]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Clench_Fist_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-04.23.34:309][ 31]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.35:720][103]LogRenderer:Warning: Reallocating scene render targets to support 1464x848 (Frame:1052).
+[2015.03.28-04.23.50:956][984]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset"'
+[2015.03.28-04.23.51:191][984]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.51:305][984]LogSavePackage: Save=10.048555ms
+[2015.03.28-04.23.51:305][984]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Fighting_stance_a_Flipbook7A20A43A4EC8A7D2FB7CC9B76F45BA37.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset'
+[2015.03.28-04.23.51:318][985]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset"'
+[2015.03.28-04.23.51:372][989]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Fighting_stance_a_Flipbook.uasset
+'
+[2015.03.28-04.23.55:332][208]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset"'
+[2015.03.28-04.23.55:565][208]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.23.55:676][208]LogSavePackage: Save=9.109003ms
+[2015.03.28-04.23.55:676][208]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Fighting_stance_b_Flipbook4B8CBB2C48DC0644DA524AB8EFBEE8ED.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset'
+[2015.03.28-04.23.55:687][209]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset"'
+[2015.03.28-04.23.55:743][213]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Fighting_stance_b_Flipbook.uasset
+'
+[2015.03.28-04.24.02:244][576]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset"'
+[2015.03.28-04.24.02:467][576]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.02:544][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Jumping_B_Flipbook" FILE="../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset" SILENT=true
+[2015.03.28-04.24.02:570][576]LogSavePackage: Save=9.284340ms
+[2015.03.28-04.24.02:570][576]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Jumping_B_Flipbook0D190D2E46A872EB1B8363BE7A9C0713.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset'
+[2015.03.28-04.24.02:582][577]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset"'
+[2015.03.28-04.24.02:639][580]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Jumping_B_Flipbook.uasset
+'
+[2015.03.28-04.24.08:535][908]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset"'
+[2015.03.28-04.24.08:769][908]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.08:838][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Running_Flipbook" FILE="../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset" SILENT=true
+[2015.03.28-04.24.08:865][908]LogSavePackage: Save=9.312993ms
+[2015.03.28-04.24.08:865][908]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Running_FlipbookA3B325AB41CCEFAA5FF235BD18EB2E21.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset'
+[2015.03.28-04.24.08:879][909]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset"'
+[2015.03.28-04.24.08:932][913]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Running_Flipbook.uasset
+'
+[2015.03.28-04.24.12:061][ 80]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-04.24.12:106][ 80]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.12:193][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/Walking_Flipbook" FILE="../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset" SILENT=true
+[2015.03.28-04.24.12:221][ 80]LogSavePackage: Save=9.797523ms
+[2015.03.28-04.24.12:221][ 80]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_FlipbookA72326C240740F608DCB0B8D8A9FADBF.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset'
+[2015.03.28-04.24.12:235][ 81]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-04.24.12:471][ 96]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Walking_Flipbook.uasset
+'
+[2015.03.28-04.24.14:990][242]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite'
+[2015.03.28-04.24.15:998][302]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/PrototypeTexture_Sprite.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/TestingChamber_Sprite.uasset"'
+[2015.03.28-04.24.16:051][305]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.16:092][307]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Walking'
+[2015.03.28-04.24.17:104][365]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_4.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_5.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_6.uasset"'
+[2015.03.28-04.24.17:337][379]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.22:461][654]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_6.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_4.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_5.uasset"'
+[2015.03.28-04.24.22:690][654]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.22:821][654]LogSavePackage: Save=10.582266ms
+[2015.03.28-04.24.22:821][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_6532B304044CAD2BFF8C1BDBD417CBFDF.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_6.uasset'
+[2015.03.28-04.24.23:066][654]LogSavePackage: Save=205.756973ms
+[2015.03.28-04.24.23:066][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_060B56E9E489B21EDE13649B86B34BBAC.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_0.uasset'
+[2015.03.28-04.24.23:115][654]LogSavePackage: Save=10.200373ms
+[2015.03.28-04.24.23:115][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_16B8BB8DE4E4C12F6DE832FAF6D71E6C0.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_1.uasset'
+[2015.03.28-04.24.23:163][654]LogSavePackage: Save=10.382125ms
+[2015.03.28-04.24.23:163][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_277D817F44FDA736CB02467BB79D6712D.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_2.uasset'
+[2015.03.28-04.24.23:210][654]LogSavePackage: Save=10.058820ms
+[2015.03.28-04.24.23:210][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_32C585B714AF6D0D11D79DDAEB6BCA19A.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_3.uasset'
+[2015.03.28-04.24.23:962][654]LogSavePackage: Save=715.321838ms
+[2015.03.28-04.24.23:962][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_419381E77468E54C078B94298CF40813E.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_4.uasset'
+[2015.03.28-04.24.24:009][654]LogSavePackage: Save=10.241427ms
+[2015.03.28-04.24.24:009][654]LogSavePackage: Moving '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Saved/Walking_Sprite_514F6EC2449163DE2CAC68E880C98A753.tmp' to '../../../../../../Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_5.uasset'
+[2015.03.28-04.24.24:039][655]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_6.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_4.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Walking/Walking_Sprite_5.uasset"'
+[2015.03.28-04.24.24:095][659]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Sprite/Walking/Walking_Sprite_0.uasset
+ M Content/Sprite/Walking/Walking_Sprite_1.uasset
+ M Content/Sprite/Walking/Walking_Sprite_2.uasset
+ M Content/Sprite/Walking/Walking_Sprite_3.uasset
+ M Content/Sprite/Walking/Walking_Sprite_4.uasset
+ M Content/Sprite/Walking/Walking_Sprite_5.uasset
+ M Content/Sprite/Walking/Walking_Sprite_6.uasset
+'
+[2015.03.28-04.24.27:038][825]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.28-04.24.27:038][825]PIE: New page: PIE session: LandsOfToasting (Mar 27, 2015, 8:24:27 PM)
+[2015.03.28-04.24.27:040][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002024s)
+[2015.03.28-04.24.27:041][825]LogPlayLevel: PIE: World Init took: (0.000486s)
+[2015.03.28-04.24.27:041][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LandsOfToasting.LandsOfToasting to /Game/Maps/UEDPIE_0_LandsOfToasting.LandsOfToasting (0.002667s)
+[2015.03.28-04.24.29:023][825]LogWorld: Game class is '2DTestGameMode_C'
+[2015.03.28-04.24.29:026][825]LogAIModule: Creating AISystem for world LandsOfToasting
+[2015.03.28-04.24.29:037][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LandsOfToasting.LandsOfToasting up for play (max tick rate 60) at 2015.03.28-00.24.29
+[2015.03.28-04.24.29:038][825]LogWorld: Bringing up level for play took: 0.011678
+[2015.03.28-04.24.29:042][825]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_LandsOfToasting 2.606
+[2015.03.28-04.24.34:864][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA72BB9C0
+[2015.03.28-04.24.34:864][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA72B80E0
+[2015.03.28-04.24.34:865][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA6FF1DA0
+[2015.03.28-04.24.34:865][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA6B22CA0
+[2015.03.28-04.24.34:865][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA6B20720
+[2015.03.28-04.24.34:865][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA76C74C0
+[2015.03.28-04.24.34:865][168]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE995F9620
+[2015.03.28-04.24.37:155][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Jumping'
+[2015.03.28-04.24.38:181][365]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Jumping/Jumping_b_Sprite_0.uasset"'
+[2015.03.28-04.24.38:447][380]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.38:900][384]LogRenderer:Warning: Reallocating scene render targets to support 1464x960 (Frame:4065).
+[2015.03.28-04.24.39:835][437]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Jumping/Jumping_b_Sprite_0.uasset"'
+[2015.03.28-04.24.40:067][451]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.24.43:333][637]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.28-04.24.43:899][671]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.28-04.24.44:523][708]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2015.03.28-04.24.45:533][769]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Clench_Fist_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-04.24.45:582][772]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Fighting_stance_a_Flipbook.uasset
+ M Content/Flipbooks/Fighting_stance_b_Flipbook.uasset
+ M Content/Flipbooks/Jumping_B_Flipbook.uasset
+ M Content/Flipbooks/Running_Flipbook.uasset
+ M Content/Flipbooks/Walking_Flipbook.uasset
+'
+[2015.03.28-04.26.10:829][323]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.10:869][323]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.11:831][375]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.11:874][376]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.12:850][428]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.12:922][430]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.13:850][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.14:119][494]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.14:866][533]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.14:918][536]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.15:872][586]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.16:107][597]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.16:883][639]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.17:126][651]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.17:901][693]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.18:151][705]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.18:909][746]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.18:948][748]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.19:925][800]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.20:154][811]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.20:938][853]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.21:172][865]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.21:941][907]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.21:981][909]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.22:947][958]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.22:991][960]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.23:960][ 11]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.24:002][ 13]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.24:969][ 64]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.25:203][ 75]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.25:984][115]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.26:211][126]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.26:996][169]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.27:243][181]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.28:004][222]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.28:251][234]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.26.29:016][276]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Config/DefaultGame.ini"'
+[2015.03.28-04.26.29:248][287]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.27.26:387][435]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Runnning'
+[2015.03.28-04.27.27:359][480]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_4.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_5.uasset"'
+[2015.03.28-04.27.28:073][520]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.27.31:174][686]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_4.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Runnning/Running_Sprite_5.uasset"'
+[2015.03.28-04.27.31:223][689]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.28.52:525][216]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Jumping'
+[2015.03.28-04.28.53:551][278]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Jumping/Jumping_b_Sprite_0.uasset"'
+[2015.03.28-04.28.54:248][308]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.28.55:130][360]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Jumping/Jumping_b_Sprite_0.uasset"'
+[2015.03.28-04.28.55:179][363]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.07:238][153]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Falling'
+[2015.03.28-04.30.07:657][178]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Clench_Fist'
+[2015.03.28-04.30.08:677][237]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_4.uasset"'
+[2015.03.28-04.30.08:862][247]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.28-04.30.08:997][248]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.09:903][300]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackground.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackgroundBlockAtlas.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackgroundTile.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DCharacter_IdleAnimAtlas.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DCharacter_RunAnimAtlas.uasset"'
+[2015.03.28-04.30.10:140][314]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.10:140][314]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset"'
+[2015.03.28-04.30.10:258][321]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.10:258][321]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-04.30.10:510][336]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.10:510][336]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset"'
+[2015.03.28-04.30.10:750][350]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.10:750][350]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/2DTestGameMode.uasset"'
+[2015.03.28-04.30.10:793][353]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.10:793][353]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/AbstractPlayer.uasset"'
+[2015.03.28-04.30.10:845][356]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+'
+[2015.03.28-04.30.12:810][465]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Data/AnimationStates.uasset"'
+[2015.03.28-04.30.13:060][479]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:401][608]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackground.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackgroundBlockAtlas.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DBackgroundTile.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DCharacter_IdleAnimAtlas.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Textures/2DCharacter_RunAnimAtlas.uasset"'
+[2015.03.28-04.30.15:469][612]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:469][612]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset"'
+[2015.03.28-04.30.15:522][615]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:522][615]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-04.30.15:567][618]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:567][618]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset"'
+[2015.03.28-04.30.15:601][620]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:601][620]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/2DTestGameMode.uasset"'
+[2015.03.28-04.30.15:653][623]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.15:653][623]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/AbstractPlayer.uasset"'
+[2015.03.28-04.30.15:900][638]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+'
+[2015.03.28-04.30.17:571][735]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_3.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Clench_Fist/Clench_Fist_Sprite_4.uasset"'
+[2015.03.28-04.30.17:746][745]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite'
+[2015.03.28-04.30.17:803][749]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.30.18:281][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.28-04.30.19:298][838]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Maps/LandsOfToasting.umap"'
+[2015.03.28-04.30.19:531][852]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Maps/LandsOfToasting.umap
+'
+[2015.03.28-04.30.19:826][869]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2015.03.28-04.30.20:840][930]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Clench_Fist_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Falling_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Jumping_B_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Running_Flipbook.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-04.30.20:927][935]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Flipbooks/Fighting_stance_a_Flipbook.uasset
+ M Content/Flipbooks/Fighting_stance_b_Flipbook.uasset
+ M Content/Flipbooks/Jumping_B_Flipbook.uasset
+ M Content/Flipbooks/Running_Flipbook.uasset
+ M Content/Flipbooks/Walking_Flipbook.uasset
+'
+[2015.03.28-04.30.22:234][ 12]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.03.28-04.30.22:718][ 41]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.28-04.30.23:678][ 98]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-04.30.24:690][157]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-04.30.24:925][171]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+'
+[2015.03.28-04.31.16:695][762]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Fighting_Stance_b'
+[2015.03.28-04.31.17:710][819]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_b/Fighting_stance_b_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_b/Fighting_stance_b_Sprite_1.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_b/Fighting_stance_b_Sprite_2.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_b/Fighting_stance_b_Sprite_3.uasset"'
+[2015.03.28-04.31.17:757][822]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-04.31.19:466][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprite/Fighting_Stance_a'
+[2015.03.28-04.31.20:479][979]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_a/Fighting_stance_a_Sprite_0.uasset" "C:/Users/Xiaomao/Documents/Unreal Projects/SideScrollTesting/Content/Sprite/Fighting_Stance_a/Fighting_stance_a_Sprite_1.u

@@ -1,0 +1,1338 @@
+﻿Log file open, 03/27/15 23:19:44
+LogInit:Display: Running engine for game: SideScrollTesting
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.28-03.19.44:354][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.28-03.19.44:409][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.28-03.19.44:427][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.28-03.19.44:439][  0]LogInit: Object subsystem initialized
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.28-03.19.44:441][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.28-03.19.44:442][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.28-03.19.44:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.28-03.19.44:449][  0]LogInit: Computer: CAM-PC
+[2015.03.28-03.19.44:449][  0]LogInit: User: Cam
+[2015.03.28-03.19.44:449][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.28-03.19.44:449][  0]LogInit: High frequency timer resolution =2.338476 MHz
+[2015.03.28-03.19.44:449][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.03.28-03.19.44:449][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.28-03.19.44:449][  0]LogMemory: Process Physical Memory: 48.95 MB used, 48.95 MB peak
+[2015.03.28-03.19.44:449][  0]LogMemory: Process Virtual Memory: 24.98 MB used, 24.98 MB peak
+[2015.03.28-03.19.44:449][  0]LogMemory: Physical Memory: 7535.04 MB used, 16275.93 MB total
+[2015.03.28-03.19.44:449][  0]LogMemory: Virtual Memory: 274.78 MB used, 8388608.00 MB total
+[2015.03.28-03.19.44:496][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX    (Feature Level 11_0)
+[2015.03.28-03.19.44:496][  0]LogD3D11RHI: Adapter has 3008MB of dedicated video memory, 0MB of dedicated system memory, and 7881MB of shared system memory, 2 output[s]
+[2015.03.28-03.19.44:496][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.28-03.19.44:506][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.28-03.19.44:520][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.28-03.19.45:031][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.28-03.19.45:109][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.28-03.19.45:109][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.28-03.19.45:205][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.28-03.19.47:995][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-03.19.48:691][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-03.19.48:760][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.28-03.19.48:799][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.28-03.19.48:799][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.28-03.19.48:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.28-03.19.48:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.28-03.19.48:951][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.28-03.19.48:962][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.28-03.19.49:324][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.28-03.19.49:324][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.28-03.19.49:725][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.28-03.19.49:818][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.28-03.19.50:672][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.28-03.19.50:902][  0]SourceControl: Info Source control is disabled
+[2015.03.28-03.19.50:902][  0]SourceControl: Info Source control is disabled
+[2015.03.28-03.19.50:902][  0]SourceControl: Info Source control is disabled
+[2015.03.28-03.19.50:902][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-03.19.50:902][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.28-03.19.50:915][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-03.19.50:938][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.8.1.msysgit.1
+'
+[2015.03.28-03.19.51:173][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.28-03.19.51:173][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.03.28-03.19.51:275][  0]LogEngine: Initializing Engine...
+[2015.03.28-03.19.54:461][  0]LogInit: XAudio2 using 'Bluetooth A2DP Stere Audio (OUTBOUND 4000592( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.28-03.19.54:466][  0]LogInit: FAudioDevice initialized.
+[2015.03.28-03.19.54:513][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.28-03.19.54:535][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Cam/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.28-03.19.54:540][  0]LogInit: Texture streaming: Enabled
+[2015.03.28-03.19.54:652][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.28-03.19.54:652][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.28-03.19.54:652][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.28-03.19.54:652][  0]LogAnalytics: SetUserId 833b6ab54fec4c953d81aba2376f6a71|7627d88c4c704d328ba794190305fc13|44a3ef7e-f5ce-4203-b788-6d6e7bdf927f
+[2015.03.28-03.19.54:653][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.28-03.19.54:686][  0]LogInit: Transaction tracking system initialized
+[2015.03.28-03.19.54:898][  0]BlueprintLog: New page: Editor Load
+[2015.03.28-03.19.54:937][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.03.28-03.19.54:937][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.28-03.19.55:597][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-03.19.56:034][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.28-03.19.56:346][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.28-03.19.56:347][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.28-03.19.56:352][  0]LogConsoleResponse:Display: 
+[2015.03.28-03.19.56:491][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.28-03.19.56:659][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.28-03.19.56:680][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.8.1.msysgit.1
+'
+[2015.03.28-03.19.56:681][  0]LightingResults: New page: Lighting Build
+[2015.03.28-03.19.56:696][  0]MapCheck: New page: Map Check
+[2015.03.28-03.19.56:696][  0]LightingResults: New page: Lighting Build
+[2015.03.28-03.19.56:706][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003D1E520
+[2015.03.28-03.19.57:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.28-03.19.57:434][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.03.28-03.19.57:434][  0]Cmd: MAP CHECKDEP
+[2015.03.28-03.19.57:434][  0]MapCheck: New page: 2DSideScrollerExampleMap - Mar 27, 2015, 7:19:57 PM
+[2015.03.28-03.19.57:532][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.516ms to complete.
+[2015.03.28-03.19.57:532][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.851
+[2015.03.28-03.19.57:724][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.28-03.19.57:724][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Intermediate/CachedAssetRegistry.bin
+#	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+#	modified:   Intermediate/Config/CoalescedSourceConfigs/Game.ini
+#	modified:   Saved/Config/Windows/Editor.ini
+#	modified:   Saved/Config/Windows/EditorLayout.ini
+#	modified:   Saved/Config/Windows/EditorUserSettings.ini
+#	modified:   Saved/Config/Windows/Engine.ini
+#	modified:   Saved/Config/Windows/GameUserSettings.ini
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	Content/Blueprints/
+#	Content/Data/
+#	Content/Flipbooks/
+#	Content/Materials/
+#	Content/Sprite/
+#	Content/Textures/
+#	Saved/AutoScreenshot.png
+#	Saved/Logs/
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.03.28-03.19.57:724][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.28-03.19.57:724][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.03.28-03.19.57:724][  0]LogCollectionManager: Loaded 0 collections in 0.001893 seconds
+[2015.03.28-03.19.57:738][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 1696 classes and 261 folders.
+[2015.03.28-03.19.57:764][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.28-03.19.57:781][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.03.28-03.19.57:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.28-03.19.57:836][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.28-03.19.57:843][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.28-03.19.57:875][  0]LogLoad: Full Startup: 15.52 seconds (BP compile: 0.22 seconds)
+[2015.03.28-03.19.57:953][  0]SourceControl: Info master
+[2015.03.28-03.19.58:103][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.03.28-03.19.58:354][  4]LogAssetRegistry: Asset discovery search completed in 3.4279 seconds
+[2015.03.28-03.20.15:050][992]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-03.20.16:060][ 52]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-03.20.16:093][ 54]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+?? Content/Blueprints/PlayerTree/IPlayerFunctions.uasset
+?? Content/Blueprints/PlayerTree/PlayerState.uasset
+'
+[2015.03.28-03.20.16:822][ 96]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.28-03.20.17:528][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-03.20.18:548][187]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-03.20.18:571][188]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+?? Content/Blueprints/PlayerTree/IPlayerFunctions.uasset
+?? Content/Blueprints/PlayerTree/PlayerState.uasset
+'
+[2015.03.28-03.20.19:704][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:704][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:704][246]LoadErrors:Error: Error /Game/Blueprints/PlayerTree/AbstractPlayer : Can't find file for asset. /Script/CTFReboot
+[2015.03.28-03.20.19:704][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:704][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:735][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:735][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:735][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:735][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:737][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:737][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:739][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:739][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:740][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:740][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset.
+[2015.03.28-03.20.19:740][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:740][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:740][246]LoadErrors:Error: Error /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer : Can't find file for asset. /Script/CTFReboot
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanAttack': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsCrouching': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:741][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsFacingRight': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsJumping': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:742][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsRunning': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsFalling': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:743][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsMoving': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'State': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanCrouch': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:744][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanRun': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanMove': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:745][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanFall': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CanJumpUp': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:746][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_AbstractPlayer': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue7': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue6': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue5': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue4': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue3': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue2': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Not_PreBool_ReturnValue': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:747][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input2': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input3': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input4': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input5': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input6': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Input7': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:ExecuteUbergraph_AbstractPlayer
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:748][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsFacingRight': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsJumping': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:749][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsRunning': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsFalling': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:750][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsCrouching': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ToggleIsMoving': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsFacingRight': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:751][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsFacingRight
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsJumping': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsJumping
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:752][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsPeakJump
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsRunning': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsRunning
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsFalling': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:753][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsFalling
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsCrouching': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsCrouching
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetIsMoving': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:754][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SetIsMoving
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UpdateState': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:755][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_UpdateState': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsFalling_bIsFalling': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsRunning_Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsPeakJump_Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsJumping_Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsFacingRight_Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsCrouching_Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:756][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_F_IsMoving_bIsMoving': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_UpdateState
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InputJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_CanJump_ReturnValue': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:InputJump
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InputCrouch': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:757][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsCrouching': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsCrouching
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsFacingRight': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsFacingRight
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:758][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsJumping': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsJumping
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.19:759][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsRunning': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsRunning
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsMoving': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'bIsMoving': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsMoving
+[2015.03.28-03.20.19:760][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsFalling': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'bIsFalling': Function /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:F_IsFalling
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:761][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Arrow': AbstractPlayer_C /Game/Blueprints/PlayerTree/AbstractPlayer.Default__AbstractPlayer_C
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:762][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': AbstractPlayer_C /Game/Blueprints/PlayerTree/AbstractPlayer.Default__AbstractPlayer_C
+[2015.03.28-03.20.19:763][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:763][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:763][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:763][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': AbstractPlayer_C /Game/Blueprints/PlayerTree/AbstractPlayer.Default__AbstractPlayer_C
+[2015.03.28-03.20.19:794][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:794][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:794][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:794][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SceneComponent_15': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_15': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_26': SimpleConstructionScript /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C:SimpleConstructionScript_15
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading ../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset.
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.19:795][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': AbstractPlayer_C /Game/Blueprints/PlayerTree/AbstractPlayer.Default__AbstractPlayer_C
+[2015.03.28-03.20.20:120][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:120][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:120][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:120][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:120][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'RunningFlipbook': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Falling_B': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Falling_A': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:121][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Jumping_B': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Clenching_Fists_Flipbook': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:122][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Walking_Flipbook': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Fighting_Stance_B_Flipbook': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:123][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Fighting_Stance_A_Flipbook': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Sprite': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SpringArm': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:124][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Camera': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_Abstract2DPlatformPlayer': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_InputAxisEvent_AxisValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:ExecuteUbergraph_Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Speed': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:ExecuteUbergraph_Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_SetFlipbook_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:ExecuteUbergraph_Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:125][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_UpdateAnimation_Output': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:ExecuteUbergraph_Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:ExecuteUbergraph_Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SetMaxWalkSpeed': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Speed': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:SetMaxWalkSpeed
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:126][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UpdateAnimationEvent': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InpAxisEvt_MoveRight_K2Node_InputAxisEvent_16': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'AxisValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_16
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:127][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InpActEvt_Jump_K2Node_InputActionEvent_184': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InpActEvt_Tab_K2Node_InputActionEvent_185': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:128][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InputMoveRight': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetController_ReturnValue2': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_MakeRot_ReturnValue2': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:129][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetController_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Greater_FloatFloat_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Less_FloatFloat_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_MakeRot_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Input': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:InputMoveRight
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UpdateAnimation': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsFallingLocal': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:130][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsMovingLocal': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsPeakJumpLocal': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsJumpingLocal': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'IsRunningLocal': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'AnimationState': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_Select_CmpSuccess': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'K2Node_Select_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Output': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:131][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'State': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:UpdateAnimation
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsPeakJump': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsLow': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsBetween': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsHigh': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:132][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_Z': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_Y': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_X': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetVelocity_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsPeakJump
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:133][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsJumping': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsLow': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsBetween': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Between_IsHigh': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_Z': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_Y': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BreakVector_X': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetVelocity_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:134][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsJumping
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsMoving': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Greater_FloatFloat_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsMoving
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_VSize_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsMoving
+[2015.03.28-03.20.20:135][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_GetVelocity_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsMoving
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'bIsMoving': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsMoving
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsFalling': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:136][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CallFunc_IsFalling_ReturnValue': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsFalling
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'bIsFalling': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsFalling
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'F_IsRunning': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:137][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Out': Function /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:F_IsRunning
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:138][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Arrow': Abstract2DPlatformPlayer_C /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Default__Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:139][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CameraComponent_4': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': Abstract2DPlatformPlayer_C /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Default__Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:140][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': Abstract2DPlatformPlayer_C /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Default__Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InheritableComponentHandler': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InputActionDelegateBinding_300': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:177][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'InputAxisDelegateBinding_503': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'PaperFlipbookComponent_1': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:178][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SceneComponent_14': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_14': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_24': SimpleConstructionScript /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:SimpleConstructionScript_14
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_25': SimpleConstructionScript /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:SimpleConstructionScript_14
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_28': SimpleConstructionScript /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:SimpleConstructionScript_14
+[2015.03.28-03.20.20:179][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_29': SimpleConstructionScript /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C:SimpleConstructionScript_14
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': Abstract2DPlatformPlayer_C /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Default__Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:180][246]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SpringArmComponent_4': BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:181][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:181][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by AbstractPlayer
+[2015.03.28-03.20.20:181][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:181][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:181][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:182][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:182][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:182][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15557
+[2015.03.28-03.20.20:182][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:182][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:183][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15568
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:183][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15579
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:183][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:184][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15590
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:184][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15601
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:184][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:185][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15612
+[2015.03.28-03.20.20:185][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:185][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:185][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:185][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_54344
+[2015.03.28-03.20.20:185][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:185][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:186][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15456
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:186][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15471
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:186][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:187][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15486
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:187][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15501
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:187][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:188][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15516
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:188][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15546
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:188][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:189][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:189][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_53806
+[2015.03.28-03.20.20:189][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:189][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:190][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:190][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15836
+[2015.03.28-03.20.20:190][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:190][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:190][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:191][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15844
+[2015.03.28-03.20.20:191][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:191][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:191][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:191][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15852
+[2015.03.28-03.20.20:191][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:191][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:192][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15860
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:192][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15868
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:192][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:193][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:193][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15876
+[2015.03.28-03.20.20:193][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:193][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:193][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:193][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15884
+[2015.03.28-03.20.20:193][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:194][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:194][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:194][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_16063
+[2015.03.28-03.20.20:194][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:194][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:194][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:195][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15654
+[2015.03.28-03.20.20:195][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:195][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:195][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:195][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15660
+[2015.03.28-03.20.20:195][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:195][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:196][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:196][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15666
+[2015.03.28-03.20.20:196][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:196][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:196][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:196][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15678
+[2015.03.28-03.20.20:196][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:197][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:197][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:197][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15684
+[2015.03.28-03.20.20:197][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:197][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:197][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:198][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_55533
+[2015.03.28-03.20.20:198][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:198][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:198][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:198][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15420
+[2015.03.28-03.20.20:198][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:198][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:199][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:199][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_23958
+[2015.03.28-03.20.20:199][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:199][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:199][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:200][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_25908
+[2015.03.28-03.20.20:200][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:200][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:200][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:200][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_24348
+[2015.03.28-03.20.20:200][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:200][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:201][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:201][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_25518
+[2015.03.28-03.20.20:201][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:201][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:201][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:202][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_25128
+[2015.03.28-03.20.20:202][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:202][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:202][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:202][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_23568
+[2015.03.28-03.20.20:202][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:203][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:203][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:204][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15403
+[2015.03.28-03.20.20:204][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:204][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:204][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:204][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15956
+[2015.03.28-03.20.20:204][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:205][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:205][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:205][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15926
+[2015.03.28-03.20.20:205][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:205][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:206][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:206][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15911
+[2015.03.28-03.20.20:206][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:206][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:206][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:207][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15896
+[2015.03.28-03.20.20:207][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:207][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:207][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:207][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15627
+[2015.03.28-03.20.20:208][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:208][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:208][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:208][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_15642
+[2015.03.28-03.20.20:208][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:209][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:209][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:209][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by EdGraphPin_54769
+[2015.03.28-03.20.20:209][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:209][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:211][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:211][246]LoadErrors: Info Failed to load /Script/CTFReboot.AbstractStateCharacter Referenced by PackageMetaData
+[2015.03.28-03.20.20:211][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:211][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:212][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:212][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17330
+[2015.03.28-03.20.20:212][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:212][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:215][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:215][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by Abstract2DPlatformPlayer
+[2015.03.28-03.20.20:215][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:216][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:216][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:216][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:216][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:216][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:217][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:217][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17273
+[2015.03.28-03.20.20:217][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:217][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:217][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:218][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_40550
+[2015.03.28-03.20.20:218][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:218][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:218][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:218][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_39928
+[2015.03.28-03.20.20:218][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:219][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17207
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:219][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:220][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:220][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17248
+[2015.03.28-03.20.20:220][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:220][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:220][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:220][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:221][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17202
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:221][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17317
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:221][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:222][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:222][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_17216
+[2015.03.28-03.20.20:222][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:222][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:223][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:224][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_32845
+[2015.03.28-03.20.20:224][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:224][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:227][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:227][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16842
+[2015.03.28-03.20.20:227][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:227][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:227][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:228][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:228][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16797
+[2015.03.28-03.20.20:228][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:228][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:228][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:229][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:229][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16908
+[2015.03.28-03.20.20:229][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:229][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:229][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:229][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:229][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16878
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:230][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16785
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:230][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:231][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:231][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:231][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16791
+[2015.03.28-03.20.20:231][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:231][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:231][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:232][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:232][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16803
+[2015.03.28-03.20.20:232][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:232][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:232][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:232][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:233][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by EdGraphPin_16848
+[2015.03.28-03.20.20:233][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:233][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:233][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:234][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:234][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_CallParentFunction_5
+[2015.03.28-03.20.20:234][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:234][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:235][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:235][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionEntry_742
+[2015.03.28-03.20.20:235][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:235][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:235][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:236][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionEntry_3832
+[2015.03.28-03.20.20:236][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:236][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:236][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:236][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionEntry_365
+[2015.03.28-03.20.20:236][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:237][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:237][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:237][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionEntry_3815
+[2015.03.28-03.20.20:237][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:237][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:238][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:238][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionEntry_1692
+[2015.03.28-03.20.20:238][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:238][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:238][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:239][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionResult_1
+[2015.03.28-03.20.20:239][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:239][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:239][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:240][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionResult_31
+[2015.03.28-03.20.20:240][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:240][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:240][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:240][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionResult_0
+[2015.03.28-03.20.20:240][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:241][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:241][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:241][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionResult_30
+[2015.03.28-03.20.20:241][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:241][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:242][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:242][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by K2Node_FunctionResult_5
+[2015.03.28-03.20.20:242][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:242][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:243][246]LogLinker:Warning: Can't find file '/Script/CTFReboot'
+[2015.03.28-03.20.20:244][246]LoadErrors: Info Failed to load /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C Referenced by PackageMetaData
+[2015.03.28-03.20.20:244][246]LogLinker:Warning: Can't find file for asset '/Script/CTFReboot' while loading NULL.
+[2015.03.28-03.20.20:244][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/AbstractPlayer.AbstractPlayer_C
+[2015.03.28-03.20.20:244][246]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/PlayerTree/Abstract2DPlatformPlayer.Abstract2DPlatformPlayer_C
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_UpdateState) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_UpdateState) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsFalling) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsFalling) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:248][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsPeakJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsPeakJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsJumping) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsJumping) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsFacingRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsFacingRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsCrouching) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:249][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsCrouching) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:250][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsMoving) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:250][246]LogBlueprint:Warning: FMemberReference::ResolveMember (F_IsMoving) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:251][246]LogBlueprint:Warning: FMemberReference::ResolveMember (Jump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:251][246]LogBlueprint:Warning: FMemberReference::ResolveMember (Jump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:251][246]LogBlueprint:Warning: FMemberReference::ResolveMember (CanJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:251][246]LogBlueprint:Warning: FMemberReference::ResolveMember (CanJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:254][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsCrouching) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:254][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsCrouching) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:254][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsFacingRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:254][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsFacingRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsJumping) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsJumping) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsPeakJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsPeakJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:255][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:256][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsFalling) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:256][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsFalling) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:257][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsMoving) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:257][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetIsMoving) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (InputMoveRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (InputMoveRight) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateState) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateState) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAnimation) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:291][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAnimation) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:292][246]LogBlueprint:Warning: FMemberReference::ResolveMember (ToggleIsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:292][246]LogBlueprint:Warning: FMemberReference::ResolveMember (ToggleIsRunning) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:292][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAnimationEvent) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:292][246]LogBlueprint:Warning: FMemberReference::ResolveMember (UpdateAnimationEvent) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:293][246]LogBlueprint:Warning: FMemberReference::ResolveMember (InputJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:293][246]LogBlueprint:Warning: FMemberReference::ResolveMember (InputJump) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:294][246]LogBlueprint:Warning: FMemberReference::ResolveMember (AddMovementInput) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:294][246]LogBlueprint:Warning: FMemberReference::ResolveMember (AddMovementInput) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:294][246]LogBlueprint:Warning: FMemberReference::ResolveMember (GetController) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:294][246]LogBlueprint:Warning: FMemberReference::ResolveMember (GetController) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:295][246]LogBlueprint:Warning: FMemberReference::ResolveMember (GetController) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:295][246]LogBlueprint:Warning: FMemberReference::ResolveMember (GetController) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:302][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetMaxWalkSpeed) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:302][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetMaxWalkSpeed) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:302][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetMaxWalkSpeed) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.20:302][246]LogBlueprint:Warning: FMemberReference::ResolveMember (SetMaxWalkSpeed) bSelfContext == true, but no scope supplied!
+[2015.03.28-03.20.26:823][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.28-03.20.27:884][384]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackground.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackgroundBlockAtlas.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackgroundTile.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DCharacter_IdleAnimAtlas.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DCharacter_RunAnimAtlas.uasset"'
+[2015.03.28-03.20.27:917][386]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.27:917][386]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset"'
+[2015.03.28-03.20.27:948][388]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.27:949][388]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-03.20.27:984][390]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.27:984][390]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset"'
+[2015.03.28-03.20.28:023][392]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.28:023][392]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/2DTestGameMode.uasset"'
+[2015.03.28-03.20.28:061][394]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/2DTestGameMode.uasset
+'
+[2015.03.28-03.20.28:061][394]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset"'
+[2015.03.28-03.20.28:095][396]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+'
+[2015.03.28-03.20.29:833][500]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-03.20.30:648][545]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.28-03.20.31:669][601]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/2DTestGameMode.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/BooleanStateLogic.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerMacroLogic.uasset"'
+[2015.03.28-03.20.31:695][602]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/2DTestGameMode.uasset
+?? Content/Blueprints/BooleanStateLogic.uasset
+?? Content/Blueprints/PlayerMacroLogic.uasset
+'
+[2015.03.28-03.20.34:694][769]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Flipbooks'
+[2015.03.28-03.20.35:705][825]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Clench_Fist_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Dive_roll_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Falling_a_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Falling_b_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Fighting_stance_a_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Fighting_stance_b_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Jumping_B_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Running_Flipbook.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Flipbooks/Walking_Flipbook.uasset"'
+[2015.03.28-03.20.35:735][827]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Flipbooks/Clench_Fist_Flipbook.uasset
+?? Content/Flipbooks/Dive_roll_Flipbook.uasset
+?? Content/Flipbooks/Falling_a_Flipbook.uasset
+?? Content/Flipbooks/Falling_b_Flipbook.uasset
+?? Content/Flipbooks/Fighting_stance_a_Flipbook.uasset
+?? Content/Flipbooks/Fighting_stance_b_Flipbook.uasset
+?? Content/Flipbooks/Jumping_B_Flipbook.uasset
+?? Content/Flipbooks/Running_Flipbook.uasset
+?? Content/Flipbooks/Walking_Flipbook.uasset
+'
+[2015.03.28-03.20.37:547][907]LogRenderer:Warning: Reallocating scene render targets to support 1528x808 (Frame:1806).
+[2015.03.28-03.20.43:778][237]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-03.20.43:809][237]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.43:917][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F5C96C0
+[2015.03.28-03.20.44:007][237]LogSavePackage: Save=78.937309ms
+[2015.03.28-03.20.44:007][237]LogSavePackage: Moving '../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Saved/2DSideScrollerExampleMapD6DC099B44792B81E9F9FFB4EDF28524.tmp' to '../../../../../../Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.03.28-03.20.44:069][238]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-03.20.44:110][241]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+'
+[2015.03.28-03.20.45:415][315]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.28-03.20.46:441][372]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/2DTestGameMode.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/BooleanStateLogic.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerMacroLogic.uasset"'
+[2015.03.28-03.20.46:448][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-03.20.46:476][373]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/2DTestGameMode.uasset
+?? Content/Blueprints/BooleanStateLogic.uasset
+?? Content/Blueprints/PlayerMacroLogic.uasset
+'
+[2015.03.28-03.20.53:190][431]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-03.20.53:227][433]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+?? Content/Blueprints/PlayerTree/IPlayerFunctions.uasset
+?? Content/Blueprints/PlayerTree/PlayerState.uasset
+'
+[2015.03.28-03.20.58:748][761]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.28-03.20.59:835][816]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackground.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackgroundBlockAtlas.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DBackgroundTile.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DCharacter_IdleAnimAtlas.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Textures/2DCharacter_RunAnimAtlas.uasset"'
+[2015.03.28-03.20.59:870][818]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.59:870][818]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.uasset"'
+[2015.03.28-03.20.59:904][820]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.59:904][820]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap"'
+[2015.03.28-03.20.59:934][822]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+'
+[2015.03.28-03.20.59:934][822]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/2DSideScrollerBP/2DSideScrollerOverview.uasset"'
+[2015.03.28-03.20.59:970][824]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.28-03.20.59:970][824]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/2DTestGameMode.uasset"'
+[2015.03.28-03.21.00:002][826]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/2DTestGameMode.uasset
+'
+[2015.03.28-03.21.00:002][826]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset"'
+[2015.03.28-03.21.00:036][828]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+'
+[2015.03.28-03.21.00:688][867]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/PlayerTree'
+[2015.03.28-03.21.01:708][927]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/AbstractPlayer.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/IPlayerFunctions.uasset" "C:/Users/Cam/Programmin/UnrealEngine4/Projects/Frosty Leo/DIS_IS_WARE_DA_GOODS_B/Content/Blueprints/PlayerTree/PlayerState.uasset"'
+[2015.03.28-03.21.01:740][929]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? Content/Blueprints/PlayerTree/Abstract2DPlatformPlayer.uasset
+?? Content/Blueprints/PlayerTree/AbstractPlayer.uasset
+?? Content/Blueprints/PlayerTree/IPlayerFunctions.uasset
+?? Content/Blueprints/PlayerTree/PlayerState.uasset
+'
+[2015.03.28-03.21.29:475][371]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.03.28-03.21.30:091][372]Cmd: QUIT_EDITOR
+[2015.03.28-03.21.30:377][372]LogExit: Preparing to exit.
+[2015.03.28-03.21.30:751][372]LogExit: Editor shut down
+[2015.03.28-03.21.30:752][372]LogExit: Transaction tracking system shut down
+[2015.03.28-03.21.30:753][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117AA8E0
+[2015.03.28-03.21.30:753][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F638FE0
+[2015.03.28-03.21.30:753][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F336840
+[2015.03.28-03.21.30:754][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F59B600
+[2015.03.28-03.21.30:804][372]LogExit: Object subsystem successfully closed.
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.28-03.21.30:855][372]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.28-03.21.30:856][372]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.28-03.21.31:125][372]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.28-03.21.31:126][372]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.28-03.21.31:171][372]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.28-03.21.31:171][372]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.28-03.21.31:171][372]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.28-03.21.31:173][372]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.28-03.21.31:214][372]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.28-03.21.31:215][372]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.28-03.21.31:216][372]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.28-03.21.31:216][372]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.28-03.21.31:216][372]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.28-03.21.31:316][372]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.28-03.21.31:316][372]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.28-03.21.31:318][372]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.28-03.21.31:323][372]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.28-03.21.31:458][372]LogDerivedDataCache: Shutdown
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.28-03.21.31:458][372]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.28-03.21.31:459][372]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.28-03.21.31:459][372]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.28-03.21.31:460][372]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.28-03.21.31:460][372]LogExit: Exiting.
+[2015.03.28-03.21.31:486][372]Log file closed, 03/27/15 23:21:31
